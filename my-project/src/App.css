@@ -83,9 +83,6 @@ body {
 /* meidum screens */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-    body {
-        background-color: pink;
-    }
     .intro-section {
         display: block;
     }
