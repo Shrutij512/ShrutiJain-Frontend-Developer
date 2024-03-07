@@ -10,12 +10,12 @@ const Faq = () => {
             <div className='w-[50%]'>
                 <h1 className='header-text text-red-500 p-20'>FAQ</h1>
                 <div>
-                    <div className='event-text flex justify-between p-2 w-100 border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900'><p>1</p><p>Why choose "Savior"?</p> <IoIosArrowDown /></div>
-                    <div className='event-text flex justify-between p-2 w-100 border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900'><p>2</p>
+                    <div className='event-text flex justify-between p-2 w-100 border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900' id='faq-list'><p>1</p><p>Why choose "Savior"?</p> <IoIosArrowDown /></div>
+                    <div className='event-text flex justify-between p-2 w-100 border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900' id='faq-list'><p>2</p>
                         <p>Why is the IDO duration so long?</p> <IoIosArrowDown /></div>
-                    <div className='event-text flex justify-between p-2 w-100 border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900'><p>3</p>
+                    <div className='event-text flex justify-between p-2 w-100 border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900' id='faq-list'><p>3</p>
                         <p>When will trading go live?</p><IoIosArrowDown /></div>
-                    <div className='border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900'>
+                    <div className='border-solid border-2 border-red-500 rounded-xl m-3 bg-gray-900' id='faq-list'>
                         <div className='event-text flex justify-between p-2 w-100'><p>4</p>
                             <p>When can we claim the tokens?</p><IoIosArrowDown />
                         </div>

@@ -8,7 +8,7 @@ const EventDiv = () => {
             </div>
             <div className='flex justify-evenly p-5 w-50' id='event-div'>
                 <div className='inner-event-div'>
-                    <p className='savior w-[80%]'>During our IDO event, you will gain early access to our revolutionary ecosystem, designed to empower everyone to share wealth and achieve success.</p>
+                    <p className='savior w-[80%]' id='event-sec'>During our IDO event, you will gain early access to our revolutionary ecosystem, designed to empower everyone to share wealth and achieve success.</p>
                     <h4 className='event-text text-sm text-white bg-red-600 p-3 w-40 ml-32 rounded-xl mt-4 overflow-auto'>Token Info</h4>
                     <div className='border-solid border-2 border-red-500 rounded-2xl items-center' id='token-info'>
 

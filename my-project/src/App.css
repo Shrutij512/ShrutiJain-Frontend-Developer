@@ -131,4 +131,14 @@ body {
         width: 200%;
         margin: 5%;
     }
+    #footer-li {
+        display: block;
+        margin-left: 5%;
+    }
+    #faq-list {
+        width: 190%;
+    }
+    #event-sec {
+        width: 189%;
+    }
 }

@@ -10,7 +10,7 @@ const Footer = () => {
             <img src={Logo_savior} alt="" className='m-10 ml-[45%]' />
             <p className='site m-5'>S I T E M A P</p>
             <div className='m-10'>
-                <ul className='flex gap-10 font-semibold ml-40'>
+                <ul className='flex gap-10 font-semibold ml-40' id='footer-li'>
                     <li>Home</li>
                     <li>IDO</li>
                     <li>Tokenomics</li>
