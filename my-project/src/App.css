@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.App {
+    text-align: center;
+}
+
+.header {
+    background-image: url("./images//RectangleBG.png");
+    /* width: 96rem; */
+    height: 36rem;
+}
+
+.header-text {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    width: 85%;
+}
+
+.savior {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: white;
+}
+
+.matrix {
+    width: 80%;
+}
+
+.event-div {
+    background-image: url("./images//RectangleBG2.png");
+    height: 60rem;
+}
+
+.event-text {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inner-event-div {
+    width: 32%;
+}
+
+.generate-text {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-size: small;
+    color: gray;
+}
+
+.roadmap {
+    background-image: url("./images//RectangleBG3.png");
+    height: 42rem;
+}
+
+.div-wrapper {
+    background-image: url("./images/div.Wrapper_Card.png");
+    height: 18rem;
+    width: 12rem;
+}
+
+.roadmap-card {
+    margin-top: 95%;
+    /* width: 80%;
+    margin-left: 12%; */
+}
+
+.site {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FF002A;
+    font-size: x-large;
+}
+
+
+/* meidum screens */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: pink;
+    }
+    .intro-section {
+        display: block;
+    }
+    #menu-list {
+        display: block;
+    }
+}
+
+
+/* small screens */
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #menu {
+        display: block;
+    }
+    #menu-list {
+        display: none;
+    }
+    .intro-section {
+        display: block;
+    }
+    #event-div {
+        display: block;
+        height: 100%;
+    }
+    #wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 15%;
+        margin-bottom: 10%
+    }
+    .roadmap {
+        margin-top: 50%;
+    }
+    .faq-div {
+        margin-top: 50%;
+        display: block;
+    }
+    #second-event {
+        display: none;
+    }
+    #token-info {
+        width: 200%;
+        margin: 5%;
+    }
+}
